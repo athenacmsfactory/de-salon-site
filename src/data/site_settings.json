@@ -1,6 +1,9 @@
 [
   {
     "title": "De Schaar",
-    "hero_image": "Screenshot2026-01-2206.59.57-1769104082479.png"
+    "hero_image": "Screenshot2026-01-2206.59.57-1769104082479.png",
+    "hero_height": "85vh",
+    "hero_max_height": "150vh",
+    "hero_aspect_ratio": "16/9"
   }
 ]
