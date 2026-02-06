@@ -187,6 +187,7 @@
     document.addEventListener('click', (e) => {
         const target = e.target.closest('[data-dock-bind]');
         if (target && window.parent !== window) {
+            if (e.shiftKey) return;
             e.preventDefault();
             e.stopPropagation();
             window.parent.postMessage({
